@@ -1,0 +1,4 @@
+Practice Projects (Python)
+
+https://www.geeksforgeeks.org/python-projects-beginner-to-advanced/
+https://www.dataquest.io/projects/?tools=Python
