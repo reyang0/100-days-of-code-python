@@ -5,9 +5,9 @@ import random
 #TODO-1: - Update the word list to use the 'word_list' from hangman_words.py
 #Delete this line: word_list = ["ardvark", "baboon", "camel"]
 
-import hangman_words
+import words
 
-chosen_word = random.choice(hangman_words.word_list)
+chosen_word = random.choice(words.word_list)
 word_length = len(chosen_word)
 
 end_of_game = False
@@ -15,9 +15,9 @@ lives = 6
 
 #TODO-3: - Import the logo from hangman_art.py and print it at the start of the game.
 
-import hangman_art
+import art
 
-print(hangman_art.logo)
+print(art.logo)
 
 #Testing code
 print(f'Pssst, the solution is {chosen_word}.')
