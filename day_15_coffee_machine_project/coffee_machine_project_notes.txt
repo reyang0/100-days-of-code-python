@@ -1,0 +1,85 @@
+--------------------------------------------------------------------------------
+1. make 3 hot flavors
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------
+| Drink			Price($) 	Water(ml)	Milk(ml)	Coffee(g)|
+--------------------------------------------------------------
+| Espresso		1.50 		50 			- 			18		 |
+| Latte			2.50 		200			250 		24		 |
+| Cappuccino	3.00 		250			100			24		 |
+--------------------------------------------------------------
+
+Resources (default)
+- 300ml water
+- 200ml milk
+- 100g coffee
+
+--------------------------------------------------------------------------------
+2. Coin Operated
+--------------------------------------------------------------------------------
+
+----------------------
+| Coin		Value($) |
+----------------------
+| Penny		0.01     |
+| Nickel	0.05     |
+| Dime		0.10     |
+| Quarter	0.25     |
+----------------------
+
+--------------------------------------------------------------------------------
+Program Requirements
+--------------------------------------------------------------------------------
+
+---------------------------------
+0. default message
+---------------------------------
+
+input("What would you like? (espresso/latte/cappuccino): ")
+
+---------------------------------
+1. print "report"
+---------------------------------
+
+Water: 300ml
+Milk: 200ml
+Coffee: 100g
+Money: $0
+
+---------------------------------
+2. check resources sufficient?
+---------------------------------
+
+Purchased a drink with resource requirements:
+
+print("Please insert coins.")
+input("How many quarters?: ")
+input("How many dimes?: ")
+input("How many nickels?: ")
+input("How many pennies?: ")
+print(f"Here is ${change} in change.")
+print(f"Here is your {drink} [emoji] Enjoy!")
+
+Purchased a drink without resource requirements:
+
+print(f"Sorry there is not enough {resource}")
+
+---------------------------------
+3. process coins
+---------------------------------
+
+print("Sorry that's not enough money. Money refunded.")
+
+---------------------------------
+4. check transaction successful?
+---------------------------------
+
+---------------------------------
+5. Make Coffee
+---------------------------------
+
+
+
+
+
