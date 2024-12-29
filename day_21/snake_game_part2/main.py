@@ -58,7 +58,7 @@ while game_is_on:
 	# - - - - - - - - - - - - - - - - - #
 	# Detect collision with wall
 	# - - - - - - - - - - - - - - - - - #
-	if snake.head.xcor() > abs(280) or nake.head.ycor() > abs(280):
+	if abs(snake.head.xcor()) > 280 or abs(snake.head.ycor()) > 280:
 		game_is_on = False
 		scoreboard.game_over()
 
